@@ -1,6 +1,6 @@
 <a name="br1"></a> 
 
-**GSOC 2024: Set up BookBrainz**
+# **GSOC 2024: Set up BookBrainz**
 
 **for Internationalization**
 
@@ -18,7 +18,7 @@ Expected outcomes: Full translation project and workflow set up, with as much as
 
 possible of the website text captured for translation
 
-**Contact Information**
+# Contact Information
 
 Name  : Abhishek
 
@@ -38,7 +38,7 @@ LinkedIn: <https://www.linkedin.com/in/abhishek-abbi>
 
 <a name="br2"></a> 
 
-**Project Overview**
+# Project Overview
 
 BookBrainz is currently available only in the English language which limits it from
 
@@ -60,7 +60,7 @@ This will enhance the user experience for non-English speakers and contribute to
 
 growth of the BookBrainz community.
 
-**Goals**
+# Goals
 
 Here are a list of goals that would be expected for the project to be considered as
 
@@ -112,7 +112,7 @@ react-i18next due to its comprehensive features, ease of integration with React
 
 applications, extensive documentation, and other reasons mentioned below.
 
-***Why i18next?***
+# Why i18next?
 
 ● User Language Detection: i18next offers plugins that automatically detects the
 
@@ -184,7 +184,7 @@ codebase to get key-value pairs. (This would obviously require manual
 
 improvements and checks)
 
-**Capturing text for translation**
+# Capturing text for translation
 
 ● Identify all the texts that need internationalization based on the decided
 
@@ -208,11 +208,13 @@ components. This will include all the alerts and messages as well.
 
 locales folder to weblate
 
-**Configuring i18next**
+# Configuring i18next
 
 The code for initializing i18next in a project using our desired options would look like this
 
 would look like this:
+
+```javascript
 
 import i18next from 'i18next'
 
@@ -270,7 +272,10 @@ i18nOptions,
 
 })
 
-**Translation Files Structure**
+
+```
+
+# Translation Files Structure
 
 The files for translations will be stored in a folder structure as such.
 
@@ -316,7 +321,7 @@ This reduces the load on the server as namespaces are only loaded when a page
 
 requires them.
 
-**Demo Project**
+# Demo Project
 
 I have been experimenting with internationalization and here is a demo project in which
 
@@ -332,7 +337,7 @@ working of translation. (Don't focus on the UI, it was built in just a couple of
 
 [Demo](https://bookbrainz-i18n-demo.vercel.app/)[ ](https://bookbrainz-i18n-demo.vercel.app/)[link](https://bookbrainz-i18n-demo.vercel.app/)
 
-**Translation Components**
+# Translation Components
 
 Here is the list of tentative components that will be set up for translation as of now.
 
@@ -394,7 +399,7 @@ each user.For example the attributes of this user:
 
 <a name="br11"></a> 
 
-**Setting up Weblate**
+# Setting up Weblate
 
 ***Create a new weblate project***
 
@@ -448,7 +453,7 @@ translations can also be seen.
 
 6\. And REPEAT
 
-**Timeline**
+# Timeline
 
 ➢ **May 1 - May 26: Community Bonding period**
 
@@ -586,7 +591,7 @@ The buffer weeks are stored in case I fall behind schedule in any of the weeks.
 
 Otherwise I would continue the work in order by doing the work for the upcoming week.
 
-**About Me**
+# About Me
 
 Hey! I'm Abhishek Abbi, a BTech student at [DA-IICT](https://www.daiict.ac.in/). I'm all about diving deep into the
 
