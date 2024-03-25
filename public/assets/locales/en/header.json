@@ -5,5 +5,14 @@
     "collections": "Collections",
     "statistics": "Statistics",
     "docs": "Docs",
-    "add": "Add"
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search",
+    "searching": "Searching...",
+    "search_results": "Search Results",
+    "search_no_results": "No results found"
 }
